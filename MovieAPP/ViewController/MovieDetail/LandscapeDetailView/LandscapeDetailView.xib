@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LandscapeDetailView" customModule="MovieAPP" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="8L6-Hj-0yo"/>
+                <outlet property="movieImage" destination="jrq-Sa-NfM" id="lhl-u9-HCG"/>
+                <outlet property="movieTitle" destination="IKY-Sh-hEO" id="Abi-w1-84I"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="586" height="180"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backdrop_default" translatesAutoresizingMaskIntoConstraints="NO" id="jrq-Sa-NfM">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="jrq-Sa-NfM" secondAttribute="height" multiplier="16:9" id="HUp-8T-HCy"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKY-Sh-hEO">
+                    <rect key="frame" x="336" y="16" width="234" height="0.0"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="heightClass=regular-widthClass=regular">
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sne-ua-466">
+                    <rect key="frame" x="336" y="130" width="234" height="50"/>
+                    <color key="backgroundColor" red="0.86666666670000003" green="0.86666666670000003" blue="0.86666666670000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Zc2-ha-K2m"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <state key="normal" title="Watch Trailer">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="watchNow:" destination="-1" eventType="touchUpInside" id="cY7-G2-Mhg"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="IKY-Sh-hEO" secondAttribute="trailing" constant="16" id="BWK-M9-kqi"/>
+                <constraint firstItem="IKY-Sh-hEO" firstAttribute="leading" secondItem="jrq-Sa-NfM" secondAttribute="trailing" constant="16" id="BrI-qs-l4U"/>
+                <constraint firstItem="sne-ua-466" firstAttribute="leading" secondItem="jrq-Sa-NfM" secondAttribute="trailing" constant="16" id="C33-qw-DQ9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="sne-ua-466" secondAttribute="trailing" constant="16" id="HKh-7I-LfI"/>
+                <constraint firstItem="jrq-Sa-NfM" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="JRF-Jf-yKF"/>
+                <constraint firstItem="jrq-Sa-NfM" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="NjO-Bx-RDc"/>
+                <constraint firstItem="sne-ua-466" firstAttribute="top" relation="greaterThanOrEqual" secondItem="IKY-Sh-hEO" secondAttribute="bottom" constant="16" id="TfJ-Th-rBz"/>
+                <constraint firstItem="IKY-Sh-hEO" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="X2y-ve-5k2"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="sne-ua-466" secondAttribute="bottom" id="cYI-bT-WbL"/>
+                <constraint firstItem="jrq-Sa-NfM" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ek3-4y-VAF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="112.50000000000001"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backdrop_default" width="114" height="64"/>
+    </resources>
+</document>
