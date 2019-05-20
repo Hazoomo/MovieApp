@@ -21,7 +21,7 @@ Application Foldes is :
 I used Alamofire & Moya for API Calling
   - APIManager.swift : here we put all the services with paths and parameters and their methods
   - NetworkAdapter.swift : MoyaProvider my services and request the api , Response with callback if success of failure.
-  -APICall.swift: this class has all the services that calling from the user with protocol to know if the response from NetworkAdapter.swift is success or failure 
+  - APICall.swift: this class has all the services that calling from the user with protocol to know if the response from NetworkAdapter.swift is success or failure 
   - ReachabilityManager.swift : To Monitor the interent connection
   - Response+ObjectMapper.swift : To Mapple my response from services and put them inside Models Folder (MoviesList for popular movies service - MoviesDetail for movie detail service - MovieVideos for movie videos service )
   
