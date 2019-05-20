@@ -1,0 +1,53 @@
+PODS:
+  - Alamofire (4.8.2)
+  - BRYXBanner (0.8.3)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - ObjectMapper (3.4.2)
+  - ReachabilitySwift (4.3.0)
+  - Result (4.1.0)
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SVProgressHUD (2.2.5)
+  - XCDYouTubeKit (2.7.3)
+
+DEPENDENCIES:
+  - Alamofire (<= 4.8.2)
+  - BRYXBanner
+  - Moya
+  - ObjectMapper
+  - ReachabilitySwift
+  - SDWebImage
+  - SVProgressHUD
+  - XCDYouTubeKit (~> 2.7)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - BRYXBanner
+    - Moya
+    - ObjectMapper
+    - ReachabilitySwift
+    - Result
+    - SDWebImage
+    - SVProgressHUD
+    - XCDYouTubeKit
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  BRYXBanner: 8cf1b119792e1cee8d7ba107297ef89f7409bc53
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  XCDYouTubeKit: 3f4fd3eb3ed494a46a8f007b91315eed6dd6df1f
+
+PODFILE CHECKSUM: fc6ba7ec4bde7d10554029554c521ee892a6cefe
+
+COCOAPODS: 1.5.0
