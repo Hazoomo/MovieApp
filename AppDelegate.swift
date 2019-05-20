@@ -17,19 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
        
        
-        //Init some configration for the first time app launch
-        //1. Default Language
-        //2. Support Folder
-        ConfigurationApp.shared.initAppDelegate()
-        
-        
-        
-        
-        //Prepare .lprog appropriate for the language of the app
-        LocalizerLanguage.DoTheSwizzling()
-        
-        
-        
         //Monitor the connection of internet to handle offline mode
         ReachabilityManager.shared.startMonitoring()
         

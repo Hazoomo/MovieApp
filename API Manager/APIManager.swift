@@ -98,7 +98,7 @@ extension MyServerAPI: TargetType {
             var parameters = [String:Any]()
             
             parameters["page"] = page
-            parameters["language"] = ChangeLanguage.currentAppleLanguage()
+            parameters["language"] = ConfigurationApp.shared.languageAPI
             parameters["api_key"] = ConfigurationApp.shared.movieAPIKey
             
             
@@ -112,7 +112,7 @@ extension MyServerAPI: TargetType {
         var parameters = [String:Any]()
         
        
-        parameters["language"] = ChangeLanguage.currentAppleLanguage()
+        parameters["language"] = ConfigurationApp.shared.languageAPI
         parameters["api_key"] = ConfigurationApp.shared.movieAPIKey
         
         
@@ -125,7 +125,7 @@ extension MyServerAPI: TargetType {
             var parameters = [String:Any]()
             
             
-            parameters["language"] = ChangeLanguage.currentAppleLanguage()
+            parameters["language"] = ConfigurationApp.shared.languageAPI
             parameters["api_key"] = ConfigurationApp.shared.movieAPIKey
             
             
