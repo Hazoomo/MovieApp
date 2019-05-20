@@ -1,6 +1,6 @@
 # MovieApp
 
-Movie App is a test iOS application for 24/i Company.
+Movie App is a test iOS application for 24/i Company developed on Xcode 10.2.1 .
 
 - App compatible in iOS 10.0+
 
