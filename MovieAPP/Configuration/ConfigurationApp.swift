@@ -18,8 +18,7 @@ class ConfigurationApp {
      let languageAPI = "en"
      let imagePath = "http://image.tmdb.org/t/p/w342"
     
-    //Var
-    var paths :[Any] = []
+    
    
 
     // MARK: - Internet availability banner
