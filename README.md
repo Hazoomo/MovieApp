@@ -26,7 +26,7 @@ I used Alamofire & Moya for API Calling
   - Response+ObjectMapper.swift : To Mapple my response from services and put them inside Models Folder (MoviesList for popular movies service - MoviesDetail for movie detail service - MovieVideos for movie videos service )
   
 #### 3- ViewController Folder :
-we have two ViewController MovieCatalog  , MovieDetail 
+we have two ViewControllers MovieCatalog  , MovieDetail 
   - MovieCatalog Folder :
     - MoviesListVC : is a view controller of movie catalog
     - MovieCell Folder : is a customized cell for movie catalog tableview
